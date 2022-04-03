@@ -137,7 +137,7 @@ const Home: NextPage = () => {
           <section className={styles.section}>
             <h2>Covers</h2>
             <p className={styles.tip}>
-              We`&apos;`ve pre-selected the covers we believe are the most
+              We&apos;ve pre-selected the covers we believe are the most
               important for you.
             </p>
             {coverQuotes && Object.values(coverQuotes).length ? (
