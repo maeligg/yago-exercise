@@ -1,0 +1,80 @@
+.container {
+  margin: 0 auto;
+  padding: 0 2rem;
+  max-width: 1000px;
+}
+
+.error {
+  padding: 1rem;
+  background-color: darkred;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.yagoSmile {
+  position: absolute;
+  z-index: -10;
+  bottom: 2rem;
+  right: 2rem;
+  width: 50vw;
+  max-width: 600px;
+  fill: var(--background-primary);
+}
+
+.main {
+  position: relative;
+  margin-bottom: 8rem;
+}
+
+.section {
+  margin-bottom: 4rem;
+}
+
+.title {
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.covers {
+  gap: 2rem;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tip {
+  font-style: italic;
+}
+
+.tip::before {
+  content: "💡";
+  margin-right: 0.5rem;
+}
+
+.flexWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid var(--color-primary);
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

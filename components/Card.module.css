@@ -1,0 +1,35 @@
+.label {
+  height: 100%;
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid var(--color-primary);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.flexWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.selected {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.checkbox {
+  align-self: flex-end;
+  height: 1rem;
+  width: 1rem;
+  accent-color: var(--color-primary);
+}
+
+.cost {
+  margin-bottom: 0;
+  font-weight: bold;
+}
